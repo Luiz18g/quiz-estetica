@@ -38,3 +38,8 @@ marcador img{
 *{
     box-sizing: border-box;
 }
+.alternativas button:hover{
+    background: #00AB93;
+    border-color: #00AB93;
+    color: white;
+}

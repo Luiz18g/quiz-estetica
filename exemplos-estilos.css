@@ -1,0 +1,44 @@
+.imagem-fundo{
+    text-align: center;
+    background-image: url(img/image\ 5.png);
+    background-size: cover;
+}
+.mascara{
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+    padding: 10px;
+}
+.titulo{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 29px;
+    color: #00ab93;
+}
+.borda{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subtitulo{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 20px;
+}
+.botao{
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    color: white;
+    background-color: #00ab93;
+    width: 257px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
