@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Magra:wght@400;700&display=swap');
-#circulo{
+.circulo{
     width: 100px;
     height: 100px;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(221,203,201,1) 100%);
     border-radius: 50px;
     margin-left: 250px;
-    margin-top: 5px;
+    margin-top: -50px;
 }
 *{
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 
 #pergunta{
     text-align: center;
-    margin-top: -350px;
+    margin-top: 0px;
     font-family: 'Magra';
     color: #0d6374;
     text-shadow: none;
@@ -32,20 +32,15 @@ body{
     background: rgb(255,255,255);
     background: linear-gradient(117deg, rgba(255,255,255,1) 0%, rgba(87,37,47,1) 100%);
     background-clip: text;
+    padding-top: 325px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #imagem-fundo{
     background-image: url(/imagem/erik.jpg);
-    padding: 0;
-    width: 1000px;
-    height: 330px;
-    overflow: hidden;
 }
-.degrade-verde{
-    margin: 0;
-    height: 25wv;
+#degrade-verde{
+    height: 50vh;
     width: 100vw;
-    top: 0px;
-    left: 0px;
+    margin-top: -110px;
 }
